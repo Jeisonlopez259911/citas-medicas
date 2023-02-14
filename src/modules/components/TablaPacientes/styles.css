@@ -1,0 +1,13 @@
+.modalTablaCita {
+    max-width: 90%;
+}
+
+.formulario {
+    display: flex;
+    gap: 10px;
+}
+
+.botones {
+    display: flex;
+    gap: 10px;
+}
