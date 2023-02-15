@@ -7,10 +7,32 @@ import { FaFileCsv, FaFileExcel } from "react-icons/fa";
 
 
 const datosList = [
-    { id: Number(""), cedula: "", nombre: "", apellido: "", ciudad: "", estadoCivil:"", correo: "", fechaNacimiento: "" , ingresos:"", genero:"", rh: "", cargo:"", eps:"", fuma:"" }
+    {
+        id: Number(""),
+        cedula: "",
+        nombre: "",
+        apellido: "",
+        ciudad: "", 
+        estadoCivil:"",
+        correo: "",
+        fechaNacimiento: "" ,
+        ingresos:"",
+        genero:"",
+        rh: "",
+        cargo:"",
+        eps:"", 
+        fuma:"" 
+    }
 ];
 const datosList2 = [
-    { id: Number(""), codigoCita: "", fechaCita: "", horaCita: "", codigoConsultorio: "", cedula: ""}
+    {
+        id: Number(""),
+        codigoCita: "",
+        fechaCita: "",
+        horaCita: "", 
+        codigoConsultorio: "",
+        cedula: ""
+    }
 ];
 const TablaPacientes = () => {
     const [data, setData] = useState(datosList);
