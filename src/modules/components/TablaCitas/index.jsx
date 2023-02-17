@@ -6,6 +6,7 @@ const TablaCitas = () => {
 
     return (
         <div className="citasPage">
+            <h2>Tabla Citas</h2>
             <div className="search container">
                 <div className='container'>
                     <form className='row formulario'>
