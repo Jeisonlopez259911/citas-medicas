@@ -1,7 +1,6 @@
 import './styles.css';
 import React, { useRef, useState } from "react";
 import { Modal, ModalBody, ModalHeader, ModalFooter } from "reactstrap";
-import { CSVLink } from "react-csv";
 import { DownloadTableExcel } from 'react-export-table-to-excel';
 import { FaFileCsv, FaFileExcel } from "react-icons/fa";
 
@@ -152,9 +151,8 @@ const TablaPacientes = () => {
                     <div className='col botones'>
                         <button className="btn btn-primary" onClick={abrirModalAgregarPaciente}>Añadir un paciente</button>
 
-                        <CSVLink data={data} filename={"Archivo"}>
-                            <button className="btn btn-dark"><FaFileCsv /></button>
-                        </CSVLink>
+                        <button className="btn btn-dark"><FaFileCsv /></button>
+                        
                         <DownloadTableExcel
                             filename="Archivo"
                             sheet="users"
